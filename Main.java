@@ -13,18 +13,18 @@ public class Main {
         System.out.println("Que numero vc quer usar segundo?");
         int b = in.nextInt();
 
-        float result = 0;
+        float resultado = 0;
 
         if(option == 1) {
-            result = Operacoes.soma(a,b);
+            resultado = Operacoes.soma(a,b);
         } else if(option == 2) {
-            result = Operacoes.subtracao(a,b);
+            resultado = Operacoes.subtracao(a,b);
         } else if(option == 3) {
-            result = Operacoes.multiplicacao(a, b);
+            resultado = Operacoes.multiplicacao(a, b);
         } else {
-            result = Operacoes.divisao(a, b);
+            resultado = Operacoes.divisao(a, b);
         }
 
-        System.out.println(result);
+        System.out.println(resultado);
     }
 }
