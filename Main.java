@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import Operacoes;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,13 +16,11 @@ public class Main {
         float result = 0;
 
         if(option == 1) {
-            result = Operacoes.somar(a,b);
+            result = Operacoes.soma(a,b);
         } else if(option == 2) {
-            result = Operacoes.subtrair(a,b);
+            result = Operacoes.subtracao(a,b);
         } else if(option == 3) {
-            result = Operacoes.multiplicar(a,b);
         } else {
-            result = Operacoes.dividir(a,b);
         }
 
         System.out.println(result);
