@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Que numero vc quer usar segundo?");
         int b = in.nextInt();
 
-        float result = 0;
+        float result = 1;
 
         if(option == 1) {
             result = Operacoes.soma(a,b);
