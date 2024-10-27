@@ -20,7 +20,9 @@ public class Main {
         } else if(option == 2) {
             result = Operacoes.subtracao(a,b);
         } else if(option == 3) {
+            result = Operacoes.multiplicacao(a, b);
         } else {
+            result = Operacoes.divisao(a, b);
         }
 
         System.out.println(result);
